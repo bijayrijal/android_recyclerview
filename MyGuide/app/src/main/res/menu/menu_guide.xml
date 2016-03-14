@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_find"
+        android:title="Destinations"
+        android:icon="@mipmap/destination"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        >
+
+    </item>
+    <item
+        android:id="@+id/action_setting"
+        android:title="Settings"
+        android:icon="@mipmap/settings"
+        app:showAsAction="never"
+        android:orderInCategory="300"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/action_about"
+        android:title="About"
+        android:icon="@mipmap/about"
+        app:showAsAction="never"
+        android:orderInCategory="200"
+        >
+
+    </item>
+
+</menu>

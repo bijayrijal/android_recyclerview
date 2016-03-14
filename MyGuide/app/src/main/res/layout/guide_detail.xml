@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:scrollbars="vertical"
+    >
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"></include>
+
+
+
+    <ImageView
+        android:id="@+id/d_image"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/hari"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/d_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Himal Sagar"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/d_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="himal@yahoo.com"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/d_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9810208888"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/d_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Call"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+    <Button
+        android:id="@+id/d_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="Message"
+        android:textColor="#ffffff"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+    <Button
+        android:id="@+id/d_send_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:text="Email"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+</LinearLayout>

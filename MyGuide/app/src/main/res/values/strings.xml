@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">MyGuide</string>
+    <string name="app_title">MyGuide</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    
+    <string-array name="nameArray">
+        <item>Hari Rokka</item>
+        <item>Shyam Neupane</item>
+        <item>Himal Chhetri</item>
+        <item>Karan Karki</item>
+        <item>Narayan Das</item>
+        <item>Kapil Sharma</item>
+        <item>Nabin Shrestha</item>
+        <item>Arjun Thapa</item>
+        <item>Kiran Pathak</item>
+        <item>Binay Lama</item>
+
+
+    </string-array>
+
+    <string-array name="emailArray">
+        <item>hari@yahoo.com</item>
+        <item>shyam@gmail.com</item>
+        <item>himal45@gmail.com</item>
+        <item>karan@outlook.com</item>
+        <item>narayan@yahoo.com</item>
+        <item>kapil@gmail.com</item>
+        <item>shta25@outlook.com</item>
+        <item>at2048@gmail.com</item>
+        <item>k_pathak@gmail.com</item>
+        <item>binay@gmail.com</item>
+
+    </string-array>
+
+    <string-array name="numberArray">
+        <item>9810206754</item>
+        <item>9810206700</item>
+        <item>9845508198</item>
+        <item>9810208888</item>
+        <item>9811236754</item>
+        <item>9810876754</item>
+        <item>9810676754</item>
+        <item>9819906754</item>
+        <item>9810206790</item>
+        <item>9810288754</item>
+    </string-array>
+    <string-array name="destinationArray">
+        <item>Kathmandu Valley</item>
+        <item>Pokhara</item>
+        <item>Bardiya</item>
+        <item>Chitwan</item>
+        <item>The Annapurna Region</item>
+        <item>Lumbini</item>
+        <item>Janakpur</item>
+
+    </string-array>
+
+    <string-array name="descriptionArray">
+        <item>The capital city of Nepal</item>
+        <item>City of mountains and lakes</item>
+        <item>National Park with excellent wildlife</item>
+        <item>Heart of the jungle</item>
+        <item>The best trekking route in the world</item>
+        <item>Birthplace of Lord Buddha</item>
+        <item>Ancient kingdom of King Janak</item>
+    </string-array>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="title_activity_main2">Detail</string>
+    <string name="title_destination_activity">Destinations</string>
+
+</resources>
